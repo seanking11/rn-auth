@@ -1,9 +1,9 @@
 import React from 'react'
 import { View } from 'react-native'
 
-const CardSection = props => (
+const CardSection = ({ children }) => (
   <View style={styles.containerStyles}>
-    {props.children}
+    {children}
   </View>
 )
 
